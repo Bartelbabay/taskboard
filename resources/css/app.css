@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f8f9fa;
+    padding: 10px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+button {
+    padding: 10px;
+    border: 1px solid #666;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: lightgray;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.modal div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.modal label {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.modal input,
+.modal textarea,
+.modal select {
+    flex: 1;
+    border: 1px solid;
+    margin: 10px;
+}
+
+.modal button {
+    margin-top: 10px;
+}
+
